@@ -1,0 +1,71 @@
+/* Developer: Jessica Fernandez, IS 117-001, Fall 2022 */
+.header{
+    padding-top: 1em;
+    background:white;
+}
+
+body {
+    background:snow;
+
+}
+
+.card{
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.card-body{
+    margin-left:1em;
+    margin-right: 1em;
+
+}
+
+
+.facts{
+    margin-left: 2em;
+}
+
+.facts2{
+    margin-left: 2em;
+}
+
+
+
+.dropdown-item{
+    background-color:#e3f2fd;
+    color: blue;}
+.nav-link{
+    color:blue;
+}
+.position-sticky-top{
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    background:#e3f2fd;
+}
+
+.position-sticky{
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    background:#e3f2fd;
+}
+label{
+    color:black;
+}
+.nav-right {
+    float: right;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#e3f2fd;
+    color: blue ;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+
+

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- Developer: Jessica Fernandez, IS 117-001, Fall 2022 -->
+
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>Get a Pup</title>
+    <link rel="shortcut icon" href="Media/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="text-center" style="background-color:#FFFFFF">
+            <h2 class="header"><img src="Media/dogg.PNG" type=image alt="dog" height="60">  Bring a Pup Home Today!</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <nav class="navbar navbar-expand-md justify-content-start col-12"
+             style="background-color:#e3f2fd">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img src="Media/logo.png" alt="logo" width="25" height="25" class="d-inline-block me-auto mb-2 mb-md-1align-top"></a>
+                </div>
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavBar">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavBar">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-1">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="benefits.html">Benefits</a></li>
+                        <li class="nav-item"><a class="nav-link" href="care.html">Care</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aggressive.html">Aggressive</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown"
+                               role="button"
+                               data-bs-toggle="dropdown"
+                               aria-expanded="false">About </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="contact.html">Contact Us</a>
+                                <a class="dropdown-item" href="terms.html">Term of Use</a>
+                                <a class="dropdown-item" href="privacy.html">Privacy Policy</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<br>
+<br>
+
+
+<div class="row g-4">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="pb-1 mb-1 fst-italic border-bottom">
+                    Contact Me Form
+                </h2>
+
+                <p>I'd love to hear from you and help your concerns or hear about your new furry pet to share.</p>
+                <form action="">
+                    <div class="form-group">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" class="form-control" id="firstname"
+                               placeholder="First name" name="firstname">
+                    </div>
+                    <br>
+
+                    <div class="form-group">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" class="form-control" id="lastname"
+                               placeholder="Last name" name="lastname">
+                    </div>
+                    <br>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email"
+                               placeholder="Enter email" name="email">
+                    </div>
+                    <br>
+
+                    <div class="form-group form-box">
+                        <label for="message">Type Message below:</label>
+                        <textarea type="message" class="form-control" id="message"
+                                  placeholder="Enter feedback or concern" name="message" rows="3"></textarea>
+
+                    </div>
+                    <br>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input"
+                                   type="checkbox" name="subscribe"> Subscribe
+                        </label>
+                    </div>
+                    <br>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="col-md-3">
+                        <div class="position-sticky" style="top: 2rem;">
+                            <div class="p-4 mb-3 rounded">
+                                <h4 class="fst-italic text-center">You can also...</h4>
+                                <br>
+
+                                <ul style="list-style: none">
+                                    <li> <img src="Media/phone.png" alt="Phone symbol" width="20" height="30"> :  1-800-ADOPT-ME  </li>
+                                    <br>
+                                    <li> <img src="Media/email.png" alt="Email Symbol" width="20" height="30"> : Adoptme@gmail.com </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div>
+                    <footer class="footer page-footer font-small ">
+                        <div class="container">
+                            <div class="row">
+                        <span class="text-muted" >&copy; Jessica Fernandez, 2022 | <a href="terms.html"> Terms of Use  |</a>
+                            <a href="privacy.html">Privacy Statement  </a> </span>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+
+
+                <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous">
+
+    </script>
+</div>
+    </div>
+</body>
+</html>
